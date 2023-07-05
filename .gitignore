@@ -35,3 +35,8 @@ yarn-error.log*
 
 # editors
 .vscode
+.env*.local
+
+
+NEXT_PUBLIC_SITE_URL=https://lex-subscription.vercel.app
+STRIPE_WEBHOOK_SECRET = whsec_ac90269ab19a2a002c14446a327de1aaae688e08859f13b1b5ef79e9f2be9d84
