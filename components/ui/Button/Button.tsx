@@ -24,7 +24,7 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
     active,
     width,
     loading = true,
-    disabled = false,
+    disabled = true,
     style = {},
     Component = 'button',
     ...rest
