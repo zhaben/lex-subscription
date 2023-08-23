@@ -23,7 +23,7 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
     children,
     active,
     width,
-    loading = true,
+    loading = false,
     disabled = true,
     style = {},
     Component = 'button',
